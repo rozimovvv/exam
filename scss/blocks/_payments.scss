@@ -1,0 +1,65 @@
+.payments {
+  margin-bottom: 329px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__left {
+    margin-right: 220px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    width: 445px;
+
+    font-family: "spaceMono-Bold";
+    font-size: 48px;
+    line-height: 48px;
+
+    letter-spacing: -2.14286px;
+
+    color: #495567;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    width: 445px;
+
+    font-family: "Lexend-Regular";
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #939caa;
+  }
+
+  &__btn {
+    padding: 14px 43px;
+  }
+
+  &__btn:hover {
+    border: 3px solid #fcb72b;
+    color: #fcb72b;
+    background-color: white;
+  }
+
+  &__img {
+    border-radius: 50%;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: -545px;
+    top: 75px;
+  }
+
+  &__bg {
+    position: absolute;
+    right: -530px;
+    z-index: -1;
+    background-image: url(../../images/bgmask.png);
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 445px;
+  }
+}

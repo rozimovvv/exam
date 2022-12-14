@@ -1,0 +1,35 @@
+.app {
+  margin-top: 160px;
+  margin-bottom: 200px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__img {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 27px;
+
+    font-family: "spaceMono-Bold";
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: -1.07143px;
+
+    color: #495567;
+  }
+
+  &__text {
+    width: 350px;
+    font-family: "Lexend-Regular";
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #939caa;
+  }
+}

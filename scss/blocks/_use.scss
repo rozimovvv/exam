@@ -1,0 +1,61 @@
+body {
+  overflow-x: hidden;
+}
+
+.use {
+  margin-bottom: 160px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    width: 445px;
+    margin-bottom: 24px;
+
+    font-family: "spaceMono-Bold";
+    font-size: 48px;
+    line-height: 48px;
+
+    letter-spacing: -2.14286px;
+
+    color: #495567;
+  }
+
+  &__text {
+    width: 445px;
+    margin-bottom: 40px;
+    font-family: "Lexend-Regular";
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #939caa;
+  }
+
+  &__btn {
+    padding: 14px 43px;
+  }
+
+  &__btn:hover {
+    border: 3px solid #fcb72b;
+    color: #fcb72b;
+    background-color: white;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: -175px;
+    top: 300px;
+  }
+
+  &__bg {
+    position: absolute;
+    right: -530px;
+    z-index: -1;
+    background-image: url(../../images/bgmask.png);
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 445px;
+  }
+}

@@ -1,0 +1,60 @@
+.city {
+  margin-bottom: 160px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__left {
+    margin-right: 220px;
+  }
+
+  &__arrow {
+    position: absolute;
+    left: -550px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+
+    font-family: "spaceMono-Bold";
+    font-size: 48px;
+    line-height: 48px;
+
+    letter-spacing: -2.14286px;
+
+    color: #495567;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+
+    font-family: "Lexend-Regular";
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #939caa;
+  }
+
+  &__btn {
+    padding: 14px 43px;
+  }
+
+  &__btn:hover {
+    border: 3px solid #fcb72b;
+    color: #fcb72b;
+    background-color: white;
+  }
+
+  &__bg {
+    position: absolute;
+    left: -530px;
+    width: 445px;
+    height: 445px;
+
+    background-image: url(../../images/bgmask.png);
+    background-repeat: no-repeat;
+
+    z-index: -1;
+  }
+}

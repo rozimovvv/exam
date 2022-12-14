@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1106px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  padding: 14px 39px;
+  background-color: #fcb72b;
+  color: #ffffff;
+  border: none;
+
+  font-family: "spaceMono-Bold";
+  font-size: 15px;
+  line-height: 25px;
+
+  cursor: pointer;
+}
